@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScanPro — Privacy Policy</title>
+    <title>ScanPro — Support</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -17,64 +17,137 @@
         h1 { color: #C2603F; }
         h2 { color: #5C3D2E; margin-top: 28px; }
         a { color: #C2603F; }
+        .hero {
+            text-align: center;
+            padding: 40px 0 20px;
+        }
+        .hero-icon {
+            font-size: 64px;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 17px;
+            color: #5C3D2E;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #f0e6dc;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+            text-decoration: none;
+            display: block;
+            transition: box-shadow 0.2s;
+        }
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(194, 96, 63, 0.12);
+        }
+        .card h3 {
+            color: #C2603F;
+            margin: 0 0 6px;
+            font-size: 17px;
+        }
+        .card p {
+            color: #5C3D2E;
+            margin: 0;
+            font-size: 15px;
+        }
+        .links {
+            margin-top: 32px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .links a {
+            font-size: 14px;
+            color: #8B7355;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #e0d5c8;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .links a:hover {
+            color: #C2603F;
+            border-color: #C2603F;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h3 {
+            color: #5C3D2E;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        .faq-item p {
+            font-size: 15px;
+            color: #6B5A4E;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Privacy Policy</h1>
-    <p><b>ScanPro</b> — Last updated: March 2026</p>
+    <div class="hero">
+        <div class="hero-icon">📄</div>
+        <h1>ScanPro Support</h1>
+        <p>Fast, free document scanning for iOS</p>
+    </div>
 
-    <h2>Overview</h2>
-    <p>ScanPro is a document scanning app developed by Tushar Lama. Your privacy is important to us. This policy explains what data we collect, why, and how it's handled.</p>
+    <a class="card" href="mailto:scanprosupport@gmail.com?subject=ScanPro%20Support%20Request">
+        <h3>📧 Contact Support</h3>
+        <p>Having an issue or need help? Send us an email and we'll get back to you.</p>
+    </a>
 
-    <h2>Data We Collect</h2>
+    <a class="card" href="https://apps.apple.com/app/id6760579162?action=write-review">
+        <h3>⭐ Rate ScanPro</h3>
+        <p>Enjoying the app? A review on the App Store helps us a lot!</p>
+    </a>
 
-    <p><b>Authentication Data</b><br>
-    When you sign in with Google or Apple, we receive your name, email address, and profile photo URL. This is stored securely in Firebase Authentication and Firestore.</p>
+    <a class="card" href="https://apps.apple.com/app/id6760579162">
+        <h3>📲 Download on the App Store</h3>
+        <p>Get ScanPro for free on your iPhone or iPad.</p>
+    </a>
 
-    <p><b>Device Information</b><br>
-    Upon sign-in, we store basic device details: device model, iOS version, app version, locale, and timezone. This helps us diagnose issues and improve the app.</p>
+    <h2>Frequently Asked Questions</h2>
 
-    <p><b>Analytics</b><br>
-    We collect anonymous usage analytics (screen views, feature usage, scan counts) through Firebase Analytics to understand how the app is used and improve it. No document content is ever transmitted.</p>
+    <div class="faq-item">
+        <h3>Where are my scanned documents stored?</h3>
+        <p>All documents are stored locally on your device. They never leave your phone unless you explicitly share or export them.</p>
+    </div>
 
-    <p><b>Advertising</b><br>
-    ScanPro uses Google AdMob to display interstitial ads. AdMob may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+    <div class="faq-item">
+        <h3>Is my data secure?</h3>
+        <p>Yes. Your documents are protected by your device's built-in encryption and passcode. We never upload your scans to any server.</p>
+    </div>
 
-    <h2>Data We Do NOT Collect</h2>
-    <ul>
-        <li>We do not access, read, or upload your scanned documents</li>
-        <li>We do not collect OCR text results</li>
-        <li>We do not access your photo library beyond images you explicitly select</li>
-        <li>We do not sell any personal data to third parties</li>
-    </ul>
+    <div class="faq-item">
+        <h3>What happens if I delete the app?</h3>
+        <p>Deleting the app will permanently remove all locally stored documents. Make sure to export anything important before uninstalling.</p>
+    </div>
 
-    <h2>Data Storage</h2>
-    <p>All scanned documents are stored locally on your device using SwiftData. They never leave your device unless you explicitly share or export them.</p>
-    <p>Authentication and profile data is stored in Google Firebase (servers in the United States).</p>
+    <div class="faq-item">
+        <h3>How do I export a document as PDF?</h3>
+        <p>Open any document, tap the share button, and choose "Export as PDF". You can also use the Tools tab to convert documents.</p>
+    </div>
 
-    <h2>Third-Party Services</h2>
-    <ul>
-        <li><b>Firebase Authentication</b> — Sign-in and user management</li>
-        <li><b>Firebase Firestore</b> — User profile storage</li>
-        <li><b>Firebase Analytics</b> — Anonymous usage analytics</li>
-        <li><b>Google AdMob</b> — Advertising</li>
-    </ul>
+    <div class="faq-item">
+        <h3>Can I remove ads?</h3>
+        <p>Premium features including ad removal will be available in a future update.</p>
+    </div>
 
-    <h2>Your Rights</h2>
-    <p>You can delete your account and all associated data by signing out in the app's Settings. To request complete data deletion from our servers, contact us at the email below.</p>
+    <div class="faq-item">
+        <h3>The OCR text isn't accurate. What can I do?</h3>
+        <p>OCR works best with clear, well-lit scans. Try re-scanning the document with better lighting and ensure the text is in focus.</p>
+    </div>
 
-    <h2>Children's Privacy</h2>
-    <p>ScanPro is not directed at children under 13. We do not knowingly collect data from children.</p>
+    <div class="links">
+        <a href="/scanpro-support/privacy">Privacy Policy</a>
+        <a href="/scanpro-support/terms">Terms of Service</a>
+        <a href="mailto:scanprosupport@gmail.com">Email Support</a>
+    </div>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this policy from time to time. Changes will be reflected on this page with an updated date.</p>
-
-    <h2>Contact</h2>
-    <p>For questions about this privacy policy or your data:<br>
-    <a href="mailto:lamatusharr@gmail.com">lamatusharr@gmail.com</a></p>
-
-    <p style="margin-top:40px; font-size:13px; color:#8B7355;">© 2026 Scan Pro. All rights reserved.</p>
+    <p style="margin-top:40px; font-size:13px; color:#8B7355;">© 2026 ScanPro. All rights reserved.</p>
 
 </body>
 </html>
